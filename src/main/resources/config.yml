@@ -1,0 +1,43 @@
+#LobbySystem By Kandiedel
+
+lobby:
+  world: "world"
+  spawn:
+    x: 0
+    y: 64
+    z: 0
+    yaw: 0
+    pitch: 0
+  allow-fly: false
+
+items:
+  navigator:
+    slot: 4
+    material: COMPASS
+    name: "&7| &5&lNavigator &7|"
+    lore:
+      - "&7Rechtsklick zum Teleportieren"
+  settings:
+    slot: 5
+    material: LEGACY_REDSTONE_COMPARATOR
+    name: "&7| &5&lSettings &7|"
+    lore:
+      - "&7Nehme andere Einstellung vor"
+  lobby-switcher:
+    slot: 3
+    material: NETHER_STAR
+    name: "&7| &5&lLobbyswitch &7|"
+    lore:
+      - "&7Wähle eine andere Lobby"
+  hider:
+    slot: 8
+    material: BLAZE_ROD
+    name: "&7| &5&lHider &7|"
+    lore:
+      - "&7Verstecke andere Spieler"
+  effects:
+    slot: 0
+    material: FIREWORK_ROCKET
+    name: "&7| &5&lEffects &7|"
+    lore:
+      - "&7Verleihe dir effekte"
