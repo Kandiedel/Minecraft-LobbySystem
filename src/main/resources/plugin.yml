@@ -1,0 +1,6 @@
+name: Minecraft-LobbySystem
+version: '1.0-SNAPSHOT'
+main: de.kandiedel.lobbySystem.LobbySystem
+api-version: '1.21'
+authors: [ Kandiedel ]
+description: A Lobbysystem
