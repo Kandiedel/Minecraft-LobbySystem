@@ -1,5 +1,12 @@
 #LobbySystem By Kandiedel
 
+MySQL:
+  host: ""
+  port: 3306
+  database: ""
+  username: ""
+  password: ""
+
 lobby:
   world: "world"
   spawn:
