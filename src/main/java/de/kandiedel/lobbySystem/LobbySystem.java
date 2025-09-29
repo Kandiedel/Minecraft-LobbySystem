@@ -1,6 +1,7 @@
 package de.kandiedel.lobbySystem;
 
 import de.kandiedel.lobbySystem.listeners.JoinListener;
+import de.kandiedel.lobbySystem.listeners.LobbyListener;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -14,6 +15,7 @@ public final class LobbySystem extends JavaPlugin {
     public void onEnable() {
 
         getServer().getPluginManager().registerEvents(new JoinListener(getConfig()), this);
+        getServer().getPluginManager().registerEvents(new LobbyListener(), this);
 
         saveDefaultConfig();
 
